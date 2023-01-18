@@ -81,8 +81,7 @@ color: #EF5D6D;
 .A-dev{
     width: 312px;
 height: 30px;
-left: 135px;
-top: 369px;
+
 
 font-family: 'Lato';
 font-style: normal;
@@ -95,6 +94,10 @@ text-transform: capitalize;
 
 color: #000000;
 }
+
+/* .aung{
+    height: 1px;
+} */
 
 .Developer, .Myanmar{
     color: #6E50EC;
@@ -173,7 +176,7 @@ background: #EF5D6D;
     position: absolute;
     width: 218px;
 height: 326px;
-margin-bottom: 100px;
+margin-bottom: 800px;
 
 
 border-radius: 0px 0px 84px 97px;
@@ -181,7 +184,7 @@ border-radius: 0px 0px 84px 97px;
 
 .img-of-about{
  
-height: 300px;
+    height: 484px;
 
 left: 233px;
 top: 722px;
@@ -213,52 +216,50 @@ color: #EF5D6D;
 }
 
 .Imadev{
-    width: 176px;
-height: 21px;
-left: 785px;
-top: 875px;
 
-font-family: 'Azeret Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
-
-
-/* f */
-
-color: #6E50EC;
+    
+    left: 735px;
+    top: 979px;
+    
+   
+    font-style: 'SemiBold';
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 37px;
+    
+    /* f */
+    
+    color: #6E50EC;
 }
 
 .title-of-about{
-    width: 365px;
-height: 66px;
-left: 785px;
-top: 905px;
+ 
 
-font-family: 'Azeret Mono boild';
+left: 736px;
+top: 1041px;
+
+
 font-style: normal;
 font-weight: 700;
-font-size: 28px;
-line-height: 33px;
+font-size: 22px;
+line-height: 23px;
 
 color: #000000;
 
 }
 
 .body-text-about{
-    width: 385px;
-    height: 73px;
 
-    
-    /* body */
+    left: 738px;
+    top: 1084px;
     
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 25px;
+    /* or 156% */
+    
     
     /* bodytextcolour */
     
@@ -268,21 +269,18 @@ color: #000000;
 
 .body-text-about-2{
 
-    width: 370px;
-height: 46px;
 
-
-/* body */
-
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-
-/* bodytextcolour */
-
-color: #8F8DA2;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    
+    
+    color: #8F8DA2;
+    
 }
 .home-all{
     
@@ -309,7 +307,10 @@ color: #8F8DA2;
 @media (max-width: 992px){
     .h-of-abouttags{
         margin-top: 50px;
-        height: 350px;
+        height: 450px;
+    }
+    .img-of-about{
+        height: 450px;
     }
 }
 
